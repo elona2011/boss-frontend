@@ -1,6 +1,4 @@
 # Summary
 
-* [angularjs](angularjs.md)
-* [javascript](javascript.md)
-    - [javascript](javascript.md)
-* [git](git.md)
+* [环境搭建](init.md)
+* [前端工程化](engineer.md)
