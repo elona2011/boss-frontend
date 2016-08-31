@@ -1,6 +1,6 @@
 # AngularJS
 
-本节只说明业务实现的具体方法，需对AngularJS的原理有基本了解。
+本节只说明业务实现的原因及思路，但需对AngularJS的原理有基本了解。
 
 ## Angular官方文档
 
