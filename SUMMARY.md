@@ -9,6 +9,7 @@
         - [qiniu](./angular/service/qiniu/qiniu.md)
         - [dataTable](./angular/service/dataTable/dataTable.md)
     * [custom filter](./angular/filter/filter.md)
+        - [query](./angular/filter/query/query.md)
     * [custom directives](./angular/directive/directive.md)
         - [select2](./angular/directive/select2/select2.md)
         - [validater](./angular/directive/validater/validater.md)
