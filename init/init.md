@@ -13,10 +13,12 @@ npm start
 ```
 启动webpack-dev-server，本地不需要再启动tomcat
 
+
 ```
 npm run build
 ```
 build项目
+
 
 ```
 npm run server
