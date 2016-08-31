@@ -1,7 +1,7 @@
 # Summary
 
 * [环境搭建](./init/init.md)
-* [angular.js](./angular/angular.md)
+* [angular组件](./angular/angular.md)
     * [custom services](./angular/service/service.md)
         - [blockUI](./angular/service/blockUI/blockUI.md)
         - [ajax1](./angular/service/ajax1/ajax1.md)
