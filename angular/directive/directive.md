@@ -27,3 +27,56 @@ DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自�
 3.设置触发按钮 <... validate-all></...>　验证成功后才会调用ngClick
 
 ![test](1.png)
+
+## searchCache
+
+根据产品提出的搜索表格后进详情，再返回列表页，要能对之前的搜索结果进行记忆的需求，生成两个指令：searchCache和searchCacheButton
+
+searchCacheButton一般放置在搜索按钮上，用于保存被标记的输入框的状态
+
+searchCache用于标记该输入框需要被记忆，以及页面跳转时从缓存中提取数据
+
+* 使用$cacheFactory储存
+* 调用/resource/init/接口判断页面关联，因为如果不是从详情返回，则无需记忆
+* 通过UI-ROUTE的$stateChangeSuccess事件获得路由状态
+
+![test](3.png)
+
+## buttonSteer
+
+在按键上添加自定义指令buttonSteer，在页面初始化之前调用相应接口获得权限，展示或移除相应按钮。
+
+![test](4.png)
+
+## timeInput
+
+将timepicker插件封装为自定义指令，通过指令属性配置时间输入框
+
+* 自动加载timepicker js/css文件
+* 支持自定义时间格式、最小最大时间、当前时间等多种设置
+* 显示中文
+
+![test](5.png)
+
+## provinces,cities
+
+* 自动通过接口从后台获取省市区，省市区自动关联
+* 在省份下拉框添加provinces指令，在城市下拉框添加cities指令
+* 可根据楼盘自动填充地址，在楼盘下拉框添加change-building指令
+
+![test](6.png)
+
+## modalMm,modalSs
+
+* 封装了modalMm，modalSs等几种大小的弹出框，使用方法和原来的modal一致。
+* 弹出框消失时，自动清空数据
+
+![test](7.png)
+
+## productSelectModal
+
+封装了整个商品选择弹出框
+
+![test](8.png)
+
+![test](9.png)
