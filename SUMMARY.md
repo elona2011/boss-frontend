@@ -5,7 +5,7 @@
     * [custom services](./angular/service/service.md)
     * [custom filter](./angular/filter/filter.md)
     * [custom directives](./angular/directive/directive.md)
-    * [Angular+React](./angular/inAngular/inAngular.md)
+    * [Angular+React](./angular/reactInAngular/reactInAngular.md)
 * [前端工程化](./engineer/engineer.md)
     * [webpack](./engineer/webpack/webpack.md)
 * [React+Ant.Design](./reactAntDesign/reactAntDesign.md)

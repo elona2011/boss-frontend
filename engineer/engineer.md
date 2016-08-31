@@ -4,16 +4,22 @@
 
 2.app.js已经非常大了，directives.js也越来越大，views和controllers文件夹里有几百个文件
 
-2.非覆盖式发布
+3.可以实现非覆盖式发布
 
-3.自动打包文件，减少网络请求
+4.可以自动打包文件，减少网络请求
 
-4.提高开发效率，HMR，支持ES2015，自动编译、自动刷新
+5.提高开发效率，HMR，支持ES2015，自动编译、自动刷新
 
-5.Cross-Domain LocalStorage
+6.Cross-Domain LocalStorage
+
+# 实现方法
+
+1.根据业务模块化，一个业务一个目录，该业务的view/controller/directive/server/router都放置在业务目录下
+
+2.使用webpack的require.ensure方法设置打包断点，然后根据开发及生产的不同配置，对业务模块分别打包
 
 # 已实现但未上线
 
-已实现的这部分在``/src``的目录下，做了两个业务模块softOrder和afterSellRecord，如果通过``npm start``起的项目，这两个业务模块会运行，替代掉原来的软装和售后的相关页面。所以，通过``npm start``起的项目，需要注释掉app.js里的orders和reject-orders
+在``/src``目录下，已经做好了两个业务模块softOrder和afterSellRecord，如果通过``npm start``起的项目，这两个业务模块会运行，替代掉原来的软装和售后的相关页面。所以，通过``npm start``起的项目，需要注释掉app.js里的orders和reject-orders路由，而通过Tomcat/Apache等server直接起的项目，则无需注释这两块。
 
 ![test](1.png)

@@ -2,6 +2,16 @@
 
 DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自定义指令。
 
+## container
+
+递归指令，用于循环生成新商品详情页。
+
+``/tpl/container.html``中枚举所有可能的组件，并每次生成其中一个组件。propertyType为约定好的组件类型名称。
+
+该指令注入RecursionHelper服务，负责生成递归的DOM
+
+![test](./images/10.png)
+
 ## select2
 
 将select2插件封装为自定义指令，在指令中统一处理select2的初始化及事件
@@ -12,7 +22,7 @@ DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自�
 
 ![test](./images/2.png)
 
-## validater
+## validate
 
 提供了jquery-validation之外的一种表单验证方法
 

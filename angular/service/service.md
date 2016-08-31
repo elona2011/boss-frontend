@@ -4,7 +4,7 @@
 
 ## ajax1,ajax2
 
-提供不同于$.ajax的Angular原生ajax请求服务，对调用方法进行简化。ajax2传入一个对象作为参数，该参数支持更多的属性。
+提供不同于$.ajax的Angular原生ajax请求服务，对调用方法进行简化。ajax2和ajax1的区别只是传参不同，ajax2传入一个对象作为参数，该参数支持更多的属性。
 
 * 使用angular原生的$http方法
 * 回调中中不需要使用$scope.$apply()
@@ -25,6 +25,14 @@
 返回值中重载了then函数，当接口未返回时，返回一个promise对象（异步调用）；当接口已返回，直接调用回调函数（同步调用）
 
 ![test](./images/2.png)
+
+## userNow
+
+获得当前user的相关信息，如a.userId和a.sessionId
+
+sessionOut用于判断session是否失效
+
+![test](./images/11.png)
 
 ## blockUI
 
