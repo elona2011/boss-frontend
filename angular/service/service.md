@@ -2,9 +2,9 @@
 
 通用的业务操作可以定义成service，一些外部插件也可以定义成service。
 
-## ajax1
+## ajax1,ajax2
 
-提供不同于jquery的另一种ajax请求服务，对调用方法进行简化
+提供不同于$.ajax的Angular原生ajax请求服务，对调用方法进行简化。ajax2传入一个对象作为参数，该参数支持更多的属性。
 
 * 使用angular原生的$http方法
 * 回调中中不需要使用$scope.$apply()

@@ -1,14 +1,14 @@
 # Summary
 
 * [环境搭建](./init/init.md)
-* [angular组件](./angular/angular.md)
+* [Angular组件](./angular/angular.md)
     * [custom services](./angular/service/service.md)
     * [custom filter](./angular/filter/filter.md)
     * [custom directives](./angular/directive/directive.md)
     * [Angular+React](./angular/inAngular/inAngular.md)
 * [前端工程化](./engineer/engineer.md)
     * [webpack](./engineer/webpack/webpack.md)
-* [React+ant.design](./reactAntDesign/reactAntDesign.md)
+* [React+Ant.Design](./reactAntDesign/reactAntDesign.md)
     * [项目实现](./reactAntDesign/project/project.md)
         * [项目结构](./reactAntDesign/project/projectFrame/projectFrame.md)
         * [文件上传](./reactAntDesign/project/upload/upload.md)
