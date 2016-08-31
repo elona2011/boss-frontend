@@ -10,7 +10,7 @@ DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自�
 * 自动配置默认选项
 * ngOptions/ngModel改变会自动刷新数据
 
-![test](2.png)
+![test](./images/2.png)
 
 ## validater
 
@@ -26,7 +26,7 @@ DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自�
 2.设置被观察指令 <... ng-required="true" input-error></...>
 3.设置触发按钮 <... validate-all></...>　验证成功后才会调用ngClick
 
-![test](1.png)
+![test](./images/1.png)
 
 ## searchCache
 
@@ -40,13 +40,13 @@ searchCache用于标记该输入框需要被记忆，以及页面跳转时从缓
 * 调用/resource/init/接口判断页面关联，因为如果不是从详情返回，则无需记忆
 * 通过UI-ROUTE的$stateChangeSuccess事件获得路由状态
 
-![test](3.png)
+![test](./images/3.png)
 
 ## buttonSteer
 
 在按键上添加自定义指令buttonSteer，在页面初始化之前调用相应接口获得权限，展示或移除相应按钮。
 
-![test](4.png)
+![test](./images/4.png)
 
 ## timeInput
 
@@ -56,7 +56,7 @@ searchCache用于标记该输入框需要被记忆，以及页面跳转时从缓
 * 支持自定义时间格式、最小最大时间、当前时间等多种设置
 * 显示中文
 
-![test](5.png)
+![test](./images/5.png)
 
 ## provinces,cities
 
@@ -64,19 +64,19 @@ searchCache用于标记该输入框需要被记忆，以及页面跳转时从缓
 * 在省份下拉框添加provinces指令，在城市下拉框添加cities指令
 * 可根据楼盘自动填充地址，在楼盘下拉框添加change-building指令
 
-![test](6.png)
+![test](./images/6.png)
 
 ## modalMm,modalSs
 
 * 封装了modalMm，modalSs等几种大小的弹出框，使用方法和原来的modal一致。
 * 弹出框消失时，自动清空数据
 
-![test](7.png)
+![test](./images/7.png)
 
 ## productSelectModal
 
 封装了整个商品选择弹出框
 
-![test](8.png)
+![test](./images/8.png)
 
-![test](9.png)
+![test](./images/9.png)
