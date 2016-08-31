@@ -10,7 +10,7 @@
 * 回调中中不需要使用$scope.$apply()
 * 注入blockUI服务，防止接口请求慢时，用户重复点击产生多次请求
 
-![test](1.png)
+![test](./images/1.png)
 
 ## ajaxCache
 
@@ -20,11 +20,11 @@
 * 减少接口请求次数
 * 根据接口返回情况，采用同步或异步两种回调模式
 
-![test](3.png)
+![test](./images/3.png)
 
 返回值中重载了then函数，当接口未返回时，返回一个promise对象（异步调用）；当接口已返回，直接调用回调函数（同步调用）
 
-![test](2.png)
+![test](./images/2.png)
 
 ## blockUI
 
@@ -38,10 +38,10 @@
 * 每次生成一个新的datatable实例
 * 支持自定义配置
 
-![test](4.png)
+![test](./images/4.png)
 
 ## qiniu
 
 封装了qiniu的图片上传接口，返回promise对象。
 
-![test](5.png)
+![test](./images/5.png)
