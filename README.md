@@ -1,8 +1,8 @@
 # BOSS前端框架的配置、指令及工程化
 
-本文只说明业务实现的原因及思路，不讨论具体的代码实现。
+本文只说明业务实现的原因及思路，不讨论具体的技术知识。
 
-BOSS前端采用``AngularJS+Metronic``框架，大量使用了AngularJS的自定义指令及服务。不熟悉的同学可参考：
+BOSS前端主要采用``AngularJS + Metronic``框架，需对AngularJS具有基本了解。
 
 ## AngularJS官方文档
 

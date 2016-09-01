@@ -90,3 +90,7 @@ searchCache用于标记该输入框需要被记忆，以及页面跳转时从缓
 ![test](./images/8.png)
 
 ![test](./images/9.png)
+
+## inputNumber
+
+加减数量输入框，可设置数量上下限

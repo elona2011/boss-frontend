@@ -1,6 +1,6 @@
 # 环境搭建
 
-SVN下载源码后，可以直接用Tomcat/Apache启动项目根目录，和目前线上环境一样。还可以使用npm命令启动项目，具体原因详见[前端工程化](/engineer/engineer.md)
+SVN下载源码后，可以直接用Tomcat/Apache启动项目根目录，和目前线上环境一样。还可以使用npm命令启动项目，会有少许差别，详见[前端工程化](/engineer/engineer.md)
 
 ## npm启动步骤
 

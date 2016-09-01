@@ -16,6 +16,8 @@
 
 2.使用webpack的require.ensure方法设置打包断点，然后根据开发及生产的不同配置，对业务模块分别打包
 
+3.使用npm加载依赖模块，减少项目打包体积
+
 # 实践
 
 在``/src``目录下，已经做好了两个业务模块softOrder和afterSellRecord，如果通过``npm start``起的项目，这两个业务模块会运行，替代掉原来的软装和售后的相关页面。所以，通过``npm start``起的项目，需要注释掉app.js里的orders和reject-orders路由，而通过Tomcat/Apache等server直接起的项目，则无需注释这两块。

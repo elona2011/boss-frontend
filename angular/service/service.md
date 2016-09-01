@@ -53,3 +53,7 @@ sessionOut用于判断session是否失效
 封装了qiniu的图片上传接口，返回promise对象。
 
 ![test](./images/5.png)
+
+## vmCache
+
+自动保存和恢复vm
