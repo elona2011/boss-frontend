@@ -1,5 +1,7 @@
 # ES6
 
+项目中用到的主要是class,module,箭头函数等新功能。
+
 ## 教程
 
 http://es6.ruanyifeng.com/
@@ -17,5 +19,7 @@ const OtherExample = require('../../../other/example.js');
 import SomeExample from '~/some/example.js';
 const OtherExample = require('~/other/example.js');
 ```
+
+![test](1.png)
 
 https://www.npmjs.com/package/babel-root-import
