@@ -18,6 +18,10 @@ package安装完成后
 npm start
 ```
 
+![test](2.png)
+
+启动成功
+
 ## 自定义命令
 
 命令定义在package.json中
