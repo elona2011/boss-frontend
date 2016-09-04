@@ -2,12 +2,22 @@
 
 ![test](1.png)
 
-components: React组件，包括页面
+## components
 
-entries: 入口文件，main
+React组件，包括页面
 
-layouts: 页面布局
+## entries
 
-routes: 路由，实现客户端页面url控制
+主入口，``index.html``等
 
-services: 封装通用服务，如ajax
+## layouts
+
+页面布局
+
+## routes
+
+路由，可实现客户端页面url控制
+
+## services
+
+封装通用服务，如ajax,login等
