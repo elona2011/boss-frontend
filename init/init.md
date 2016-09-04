@@ -30,14 +30,20 @@ npm start
 
 ![test](1.png)
 
-### npm start
-
 启动webpack-dev-server
 
-### npm run build
+```
+npm start
+```
 
 build项目
 
-### npm run server
+```
+npm run build
+```
 
 启动build server，内容和发布到线上是一样的
+
+```
+npm run server
+```
