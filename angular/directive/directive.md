@@ -8,7 +8,9 @@ DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自�
 
 ``/tpl/container.html``中枚举所有可能的组件，并每次生成其中一个组件。propertyType为约定好的组件类型名称。
 
-该指令注入RecursionHelper服务，负责生成递归的DOM
+该指令注入RecursionHelper服务，负责生成递归的DOM。
+
+递归指令可能会引起性能问题。
 
 ![test](./images/10.png)
 
@@ -33,7 +35,9 @@ DOM 操作尽量通过自定义指令完成，外部插件也可以封装成自�
 主要指令包括：inputError/ validateAll
 
 1.使用<ng-form>指令，必须有name attribute
+
 2.设置被观察指令 <... ng-required="true" input-error></...>
+
 3.设置触发按钮 <... validate-all></...>　验证成功后才会调用ngClick
 
 ![test](./images/1.png)
