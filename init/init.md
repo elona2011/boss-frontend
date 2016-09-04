@@ -18,9 +18,11 @@ package安装完成后
 npm start
 ```
 
+启动成功如下图所示
+
 ![test](2.png)
 
-启动成功
+
 
 ## 自定义命令
 
@@ -28,8 +30,14 @@ npm start
 
 ![test](1.png)
 
-```
-npm start //启动webpack-dev-server
-npm run build //build项目
-npm run server //启动build server，内容和发布到线上是一样的
-```
+### npm start
+
+启动webpack-dev-server
+
+### npm run build
+
+build项目
+
+### npm run server
+
+启动build server，内容和发布到线上是一样的

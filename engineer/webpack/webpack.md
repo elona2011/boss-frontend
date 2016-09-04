@@ -4,9 +4,17 @@ webpack是模块加载器兼打包工具，能把各种资源，如JS（含JSX�
 
 ## 配置文件
 
-webpack.config.js
+### webpack.config.js
 
-parts.js
+webpack主配置
+
+### parts.js
+
+webpack功能封装
+
+下面是``npm start``的webpack配置
+
+![test](./images/1.png)
 
 ## 教程
 
